@@ -19,16 +19,16 @@ namespace WebApp.Controllers
         {
             List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
 
-            for(int index=0; index<10; index++)
+            for (int index = 1; index <= 15; index++)
             {
                 employees.Add(new EmployeeViewModel()
                 {
                     EmployeeCode = "100000" + index,
-                    Name ="Employee-"+index,
+                    Name = "Employee-" + index,
                     Address = "Address-" + index,
                     Department = "Department-" + index,
-                    Title = "Title-"+index,
-                    ContactNumber = "ContactNumber-"+index
+                    Title = "Title-" + index,
+                    ContactNumber = "ContactNumber-" + index
                 });
             }
 
