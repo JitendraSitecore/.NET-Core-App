@@ -19,7 +19,7 @@ namespace WebApp.Controllers
         {
             List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
 
-            for (int index = 1; index <= 15; index++)
+            for (int index = 1; index <= 10; index++)
             {
                 employees.Add(new EmployeeViewModel()
                 {
